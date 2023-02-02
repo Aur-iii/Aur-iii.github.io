@@ -1,4 +1,4 @@
-body {
+#construction {
     background-image: url("Images/background wip.png");
 }
 
@@ -24,4 +24,124 @@ body {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
+}
+
+/* Custom Breaks */
+
+.br1{
+    display: block;
+    margin-bottom: -0.5em;
+}
+
+.br2{
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.br3{
+    display: block;
+    margin-bottom: 1.5em;
+}
+
+/* Welcome */
+
+.body-1{
+    background-image: url("Images/background wip.png");
+}
+
+.mp-pannel-1{
+   float: left;
+   margin: 10px;
+   margin-left: 67px;
+   margin-right: 20px;
+}
+
+.mp-pannel-2{
+    padding-left: 40px;
+    width: 520px;
+    background: rgba(255, 255, 255, .1);
+    border-radius: 80px;
+    height: 833px;
+    float: left;
+    margin: 10px;
+    margin-left: 60px;
+}
+
+.mp-pannel-2a{
+    margin-top: 70px;
+}
+
+.socials{
+    margin-top: 90px;
+}
+
+.youtube{
+    float: left;
+    margin-left: 18px;
+    margin-right: 80px;
+}
+
+.insta{
+    float: left;
+    margin-right: 80px;
+}
+
+.tiktok{
+    float: left;
+    margin-right: 80px;
+}
+
+.discord{
+    float: left;
+    margin-top: 5px;
+}
+
+.mp-p2-h1{
+    -webkit-text-fill-color: white;
+    font-size: 80px;
+    font-family: 'Eczar', serif;
+}
+
+.name{
+    background: linear-gradient(to right, #F0327E 0%, #C854CC 31%, #387CE2 65%, #26E9C1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: linear-gradient(to right, #F0327E 0%, #C854CC 31%, #387CE2 65%, #26E9C1 100%) 3.5px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: larger;
+    padding: 5px;
+}
+
+.mp-p2-p1{
+    -webkit-text-fill-color: white;
+    font-size: 50px;
+    font-family: 'Eczar', serif;
+    margin-top: -70px;
+
+}
+
+.mp-p2-p2{
+    margin-top: 50px;
+    -webkit-text-fill-color: white;
+    font-size: 35px;
+    font-family: 'Eczar', serif;
+
+}
+
+#mp-port-1{
+    display: block;
+    width: 385px;
+    border-style: solid;
+    border-width: 10px;
+    background: linear-gradient(white, white) padding-box,
+            linear-gradient(to right, #F0327E 0%, #C854CC 31%, #387CE2 65%, #26E9C1 100%) border-box;
+    border-radius: 80px;
+    border: 10px solid transparent;
+}
+
+.mp-pannel-3{
+    float: left;
+    -webkit-text-fill-color: white;
+    font-size: 35px;
+    font-family: 'Eczar', serif;
 }
