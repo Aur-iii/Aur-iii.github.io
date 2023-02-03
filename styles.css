@@ -19,38 +19,34 @@
 
 .body-1{
     background-image: url("Images/background wip.png");
+    aspect-ratio: 20 / 9;
 }
 
 .page-content-1{
-    display: block;
-    width: auto;
-    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
 }
 
 .mp-pannel-1{
-   float: left;
-   margin: 10px;
-   margin-left: 67px;
-   margin-right: 20px;
+    width: 33%;
+    margin: 15px;
 }
 
 .mp-pannel-2{
-    padding-left: 40px;
-    width: 520px;
+    padding-left: 45px;
+    width: 555px;
     background: rgba(255, 255, 255, .1);
     border-radius: 80px;
-    height: 833px;
-    float: left;
-    margin: 10px;
-    margin-left: 60px;
+    margin: 15px;
 }
 
 .mp-pannel-2a{
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 .socials{
-    margin-top: 90px;
+    margin-top: 50px;
 }
 
 .youtube{
@@ -111,15 +107,22 @@
     width: 385px;
     border-style: solid;
     border-width: 10px;
-    background: linear-gradient(white, white) padding-box,
-            linear-gradient(to right, #F0327E 0%, #C854CC 31%, #387CE2 65%, #26E9C1 100%) border-box;
+    background: linear-gradient(white, white) padding-box, linear-gradient(to right, #F0327E 0%, #C854CC 31%, #387CE2 65%, #26E9C1 100%) border-box;
     border-radius: 80px;
     border: 10px solid transparent;
 }
 
 .mp-pannel-3{
-    float: left;
+    background: rgba(255, 255, 255, .1);
+    border-radius: 80px;
+    margin: 15px;
+    width: 570px;
+}
+
+.mp-p3-p1{
     -webkit-text-fill-color: white;
     font-size: 35px;
     font-family: 'Eczar', serif;
+    margin-left: 35px;
+    margin-top: 70px;
 }
