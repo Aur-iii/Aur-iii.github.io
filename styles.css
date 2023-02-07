@@ -1,11 +1,11 @@
 /* Welcome */
 
-.body-1{
+.body{
     background-image: url("Images/background wip.png");
     aspect-ratio: 20 / 9;
 }
 
-.page-content-1{
+.page-content{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
@@ -135,7 +135,7 @@
     width: 100%;
     font-size: 50px;
     font-family: 'Eczar', serif;
-    margin-top: 5px;
+    margin-top: -40px;
     transition: margin-top 400ms ease;
     text-decoration: none;
 }
@@ -144,7 +144,7 @@
     width: 100%;
     font-size: 50px;
     font-family: 'Eczar', serif;
-    margin-top: 5px;
+    margin-top: -40px;
     transition: margin-top 400ms ease;
     text-decoration: none;
 }
@@ -153,7 +153,7 @@
     width: 100%;
     font-size: 50px;
     font-family: 'Eczar', serif;
-    margin-top: 5px;
+    margin-top: -40px;
     transition: margin-top 400ms ease;
     text-decoration: none;
 }
@@ -161,77 +161,26 @@
 /*--------------*/
 
 .mp-p3-bb-1:hover{
-    margin-top: 30px;
+    margin-top: -16px;
     font-size: 50px;
     font-family: 'Eczar', serif;
 }
 
 .mp-p3-bb-2:hover{
-    margin-top: 30px;
+    margin-top: -16px;
     font-size: 50px;
     font-family: 'Eczar', serif;
 }
 
 .mp-p3-bb-3:hover{
-    margin-top: 30px;
+    margin-top: -16px;
     font-size: 50px;
     font-family: 'Eczar', serif;
 }
 
 /*--------------*/
 
-.btn{
+.bbl-txt{
+    color: white;
     text-decoration: none;
-    color: white;
-}
-
-/* About Me */
-
-.body-2{
-    background-image: url("Images/background wip.png");
-    aspect-ratio: 20 / 9;
-}
-
-.page-content-2{
-    font-family: 'Eczar', serif;
-    color: white;
-    font-size: 50px;
-}
-
-.mp2-mp{
-    color: white;
-}
-
-/* Music */
-
-.body-3{
-    background-image: url("Images/background wip.png");
-    aspect-ratio: 20 / 9;
-}
-
-.page-content-3{
-    font-family: 'Eczar', serif;
-    color: white;
-    font-size: 50px;
-}
-
-.mp3-mp{
-    color: white;
-}
-
-/* Contact Me */
-
-.body-4{
-    background-image: url("Images/background wip.png");
-    aspect-ratio: 20 / 9;
-}
-
-.page-content-4{
-    font-family: 'Eczar', serif;
-    color: white;
-    font-size: 50px;
-}
-
-.mp4-mp{
-    color: white;
 }

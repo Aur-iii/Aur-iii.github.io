@@ -1,0 +1,16 @@
+/* About Me */
+
+.body{
+    background-image: url("../Images/background wip.png");
+    aspect-ratio: 20 / 9;
+}
+
+.page-content{
+    font-family: 'Eczar', serif;
+    color: white;
+    font-size: 50px;
+}
+
+.mp-mp{
+    color: white;
+}
