@@ -1,20 +1,3 @@
-/* Custom Breaks */
-
-.br1{
-    display: block;
-    margin-bottom: -0.5em;
-}
-
-.br2{
-    display: block;
-    margin-bottom: 0.5em;
-}
-
-.br3{
-    display: block;
-    margin-bottom: 1.5em;
-}
-
 /* Welcome */
 
 .body-1{
@@ -71,7 +54,7 @@
 }
 
 .mp-p2-h1{
-    -webkit-text-fill-color: white;
+    color: white;
     font-size: 80px;
     font-family: 'Eczar', serif;
 }
@@ -87,7 +70,7 @@
 }
 
 .mp-p2-p1{
-    -webkit-text-fill-color: white;
+    color: white;
     font-size: 50px;
     font-family: 'Eczar', serif;
     margin-top: -70px;
@@ -96,7 +79,7 @@
 
 .mp-p2-p2{
     margin-top: 50px;
-    -webkit-text-fill-color: white;
+    color: white;
     font-size: 35px;
     font-family: 'Eczar', serif;
 
@@ -113,16 +96,142 @@
 }
 
 .mp-pannel-3{
-    background: rgba(255, 255, 255, .1);
-    border-radius: 80px;
     margin: 15px;
     width: 570px;
+    display: table;
 }
 
-.mp-p3-p1{
-    -webkit-text-fill-color: white;
-    font-size: 35px;
+.mp-p3-container{
+    width: auto;
+    height: auto;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.mp-p3-bubble{
+    background: rgba(255, 255, 255, 0.3);
+    width: auto;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 80px;
+    vertical-align: middle;
+    text-align: center;
+    transition: background 400ms ease;
+    transition: height 400ms ease;
+    display: flex;
+    justify-content: center;;
+}
+
+.mp-p3-bubble:hover{
+    background: rgba(255, 255, 255, 0.5);
+    height: 150px;
+}
+
+/*--------------*/
+
+.mp-p3-bb-1{
+    width: 100%;
+    font-size: 50px;
     font-family: 'Eczar', serif;
-    margin-left: 35px;
-    margin-top: 70px;
+    margin-top: 5px;
+    transition: margin-top 400ms ease;
+    text-decoration: none;
+}
+
+.mp-p3-bb-2{
+    width: 100%;
+    font-size: 50px;
+    font-family: 'Eczar', serif;
+    margin-top: 5px;
+    transition: margin-top 400ms ease;
+    text-decoration: none;
+}
+
+.mp-p3-bb-3{
+    width: 100%;
+    font-size: 50px;
+    font-family: 'Eczar', serif;
+    margin-top: 5px;
+    transition: margin-top 400ms ease;
+    text-decoration: none;
+}
+
+/*--------------*/
+
+.mp-p3-bb-1:hover{
+    margin-top: 30px;
+    font-size: 50px;
+    font-family: 'Eczar', serif;
+}
+
+.mp-p3-bb-2:hover{
+    margin-top: 30px;
+    font-size: 50px;
+    font-family: 'Eczar', serif;
+}
+
+.mp-p3-bb-3:hover{
+    margin-top: 30px;
+    font-size: 50px;
+    font-family: 'Eczar', serif;
+}
+
+/*--------------*/
+
+.btn{
+    text-decoration: none;
+    color: white;
+}
+
+/* About Me */
+
+.body-2{
+    background-image: url("Images/background wip.png");
+    aspect-ratio: 20 / 9;
+}
+
+.page-content-2{
+    font-family: 'Eczar', serif;
+    color: white;
+    font-size: 50px;
+}
+
+.mp2-mp{
+    color: white;
+}
+
+/* Music */
+
+.body-3{
+    background-image: url("Images/background wip.png");
+    aspect-ratio: 20 / 9;
+}
+
+.page-content-3{
+    font-family: 'Eczar', serif;
+    color: white;
+    font-size: 50px;
+}
+
+.mp3-mp{
+    color: white;
+}
+
+/* Contact Me */
+
+.body-4{
+    background-image: url("Images/background wip.png");
+    aspect-ratio: 20 / 9;
+}
+
+.page-content-4{
+    font-family: 'Eczar', serif;
+    color: white;
+    font-size: 50px;
+}
+
+.mp4-mp{
+    color: white;
 }

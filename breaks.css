@@ -1,0 +1,16 @@
+/* Custom Breaks */
+
+.br1{
+    display: block;
+    margin-bottom: -0.5em;
+}
+
+.br2{
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.br3{
+    display: block;
+    margin-bottom: 1.5em;
+}
